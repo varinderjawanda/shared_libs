@@ -1,2 +1,3 @@
-def url (input1)
+def url (input1) {
 echo "Cloning GIT URL: ${input1}"
+}
