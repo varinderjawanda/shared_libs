@@ -1,3 +1,5 @@
-def url (input1) {
-echo "Cloning GIT URL: ${input1}"
+package org.jawanda
+def url (repo) {
+  echo "Cloning GIT URL: ${repo}"
+  checkOutFrom(repo)
 }
