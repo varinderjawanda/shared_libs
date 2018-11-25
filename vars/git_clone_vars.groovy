@@ -1,5 +1,6 @@
-package org.jawanda
+import org.jawanda*
+  
 def url (repo) {
-  echo "Cloning GIT URL: ${repo}"
-  org.jawanda.checkOutFrom(repo)
+  echo "from vars - Cloning GIT URL: ${repo}"
+  org.jawanda.git_clone.checkOutFrom(repo)
 }
