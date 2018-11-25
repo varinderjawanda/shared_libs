@@ -1,6 +1,12 @@
 package org.jawanda
-def checkOutFrom(repo) {
+class CheckOutFrom {
+  string repo
+  
+  def clone {
   echo "from res - Cloning GIT URL: ${repo}"
-  //git url: "git@github.com:varinderjawanda/${repo}"
+
+  }
 }
 return this
+
+    //git url: "git@github.com:varinderjawanda/${repo}"
