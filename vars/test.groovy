@@ -1,4 +1,4 @@
-def myAge(name, age){
+def myAge(name, age = 36){
 
     println("${name} is ${age} old")
 }
