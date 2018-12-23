@@ -1,4 +1,4 @@
 def myAge(name, age){
 
-    println("${name} is ${age} old")
+    println("${name} is 36 old")
 }
