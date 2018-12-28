@@ -1,4 +1,3 @@
-//import org.jawanda*
 def url (repo) {
-  echo "from vars - Cloning GIT URL: ${repo}"
+  echo "Cloning GIT URL: https://github.com/varinderjawanda/${repo}"
 }
