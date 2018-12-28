@@ -1,3 +1,4 @@
 def url (repo) {
-  echo "Cloning GIT URL: https://github.com/varinderjawanda/${repo}"
+  def GIT_URL = "https://github.com/varinderjawanda/${repo}"
+  echo "Cloning GIT URL: ${GIT_URL}"
 }
