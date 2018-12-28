@@ -1,3 +1,5 @@
-def command(){
-    sh " javac ${command}
+def command (para) {
+    
+    sh " javac ${para}
+    
 }
