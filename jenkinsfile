@@ -1,0 +1,31 @@
+@Library('CICD_libs') _
+
+pipeline {
+    
+    agent any 
+    
+    stages {
+        stage ('pulling from libs') {
+            steps {
+                script {
+                 git_clone_vars.url 'Jenkins-world-2017'   
+                //compile.command 'java_sample_code'
+                }
+            }
+        }
+        stage ('DEV deployment') {
+            steps {
+                script {
+                sleep 1   
+                }
+            }
+        }
+        stage ('Security & Quality scan'){
+            steps {
+                script {
+                    sleep 2
+                }
+            }
+        }
+    }
+}
